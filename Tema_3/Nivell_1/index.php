@@ -7,7 +7,7 @@ for($i = 0; $i < 10; $i++){
     $tigger->roar();
 }
 
-$tigger->getCounter();
+echo $tigger->getCounter() . PHP_EOL;
 
 
 

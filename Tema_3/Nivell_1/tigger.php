@@ -28,9 +28,9 @@ class Tigger
         return self::$instance;
     }
 
-    public function getCounter()
+    public function getCounter(): int
     {
-        echo $this->numRoar . PHP_EOL;
+        return $this->numRoar;
     }
 
 }
